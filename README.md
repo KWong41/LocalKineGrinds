@@ -8,10 +8,10 @@ What is pending
 
 Team Members
 
-Kevin Wong
+Kevin Wong - Front End / Back End development
 
-John Bigornia
+John Bigornia - Project Management Developmental Cycle
 
-Calvan Liang
+Calvan Liang - README.md and Wikipage documentation
 
-Ryota Seki
+Ryota Seki - Project Management Developmental Cycle / Project Architecture
