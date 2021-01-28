@@ -10,8 +10,8 @@ Team Members
 
 Kevin Wong - Front End / Back End development
 
-John Bigornia - Project Management Developmental Cycle
+John Bigornia - Project Management Developmental Cycle / Tester / Test Case logger
 
-Calvan Liang - README.md and Wikipage documentation
+Calvan Liang - README.md / Wikipage documentation
 
-Ryota Seki - Project Management Developmental Cycle / Project Architecture
+Ryota Seki - Project Management Developmental Cycle / Project Architecture / Tester / Test Case logger
