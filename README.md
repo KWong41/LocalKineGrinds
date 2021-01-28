@@ -2,13 +2,14 @@
 
 For details, please see http://ics-software-engineering.github.io/meteor-application-template-react/
 
-What is complete so far
+What is complete so far / What is pending
 
-What is pending
+We have established an agile developmental process using a Kanban Board
+For more details please see https://github.com/KWong41/LocalKineGrinds/projects/1
 
-Team Members
+Team Members:
 
-Kevin Wong - Front End / Back End development
+Kevin Wong - Front-End / Back-End development
 
 John Bigornia - Project Management Developmental Cycle / Tester / Test Case logger
 
