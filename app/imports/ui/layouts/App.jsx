@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
         <Router>
-          <div>
+          <div id='backgroundImage'>
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Landing}/>

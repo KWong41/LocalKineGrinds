@@ -1,0 +1,6 @@
+#backgroundImage {
+     background: url(https://i.pinimg.com/originals/96/7e/5a/967e5a1e0d7078684ffc3fd1e4e64811.jpg);
+     background-size:     cover;                      /* <------ */
+     background-repeat:   no-repeat;
+     background-position: center center;
+ }
