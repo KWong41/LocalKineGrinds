@@ -11,7 +11,7 @@ class StuffsCollection {
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
-      name: String,
+      anime: String,
       quantity: Number,
       owner: String,
       condition: {
