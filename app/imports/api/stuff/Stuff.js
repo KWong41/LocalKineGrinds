@@ -16,7 +16,7 @@ class StuffsCollection {
       owner: String,
       condition: {
         type: String,
-        allowedValues: ['excellent', 'good', 'fair', 'poor'],
+        allowedValues: ['excellent', 'good', 'average', 'fair', 'poor'],
         defaultValue: 'good',
       },
     }, { tracker: Tracker });
