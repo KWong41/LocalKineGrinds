@@ -10,11 +10,13 @@ import { Stuffs } from '../../api/stuff/Stuff';
 /** Create a schema to specify the structure of the data to appear in the form. */
 const formSchema = new SimpleSchema({
   name: String,
-  quantity: Number,
+  genre: String,
+  description: String,
+  quality: Number,
   condition: {
     type: String,
-    allowedValues: ['excellent', 'good', 'fair', 'poor'],
-    defaultValue: 'good',
+    allowedValues: ['excellent', 'good', 'average', 'fair', 'poor'],
+    defaultValue: 'average',
   },
 });
 
@@ -25,9 +27,9 @@ class CreateProfile extends React.Component {
 
   /** On submit, insert the data. */
   submit(data, formRef) {
-    const { name, quantity, condition } = data;
+    const { name, genre, description, quality, condition } = data;
     const owner = Meteor.user().username;
-    Stuffs.collection.insert({ name, quantity, condition, owner },
+    Stuffs.collection.insert({ name, genre, description, quality, condition, owner },
       (error) => {
         if (error) {
           swal('Error', error.message, 'error');
@@ -48,7 +50,9 @@ class CreateProfile extends React.Component {
             <AutoForm ref={ref => { fRef = ref; }} schema={bridge} onSubmit={data => this.submit(data, fRef)} >
               <Segment>
                 <TextField name='name'/>
-                <NumField name='quantity' decimal={false}/>
+                <TextField name='genre'/>
+                <TextField name='description'/>
+                <NumField name='quality' decimal={false}/>
                 <SelectField name='condition'/>
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
