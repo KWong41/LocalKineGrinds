@@ -7,9 +7,9 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
-import ProfilePage from '../pages/ProfilePage';
+import MyAnimeCollection from '../pages/MyAnimeCollection';
 import ListStuffAdmin from '../pages/ListStuffAdmin';
-import CreateProfile from '../pages/CreateProfile';
+import AddAnime from '../pages/AddAnime';
 import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
@@ -29,8 +29,8 @@ class App extends React.Component {
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
               <Route path="/signout" component={Signout}/>
-              <ProtectedRoute path="/profile" component={ProfilePage}/>
-              <ProtectedRoute path="/createprofile" component={CreateProfile}/>
+              <ProtectedRoute path="/myanimecollection" component={MyAnimeCollection}/>
+              <ProtectedRoute path="/addanime" component={AddAnime}/>
                 <ProtectedRoute path="/matching" component={Matching}/>
                 <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
               <AdminProtectedRoute path="/admin" component={ListStuffAdmin}/>

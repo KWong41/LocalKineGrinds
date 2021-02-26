@@ -23,7 +23,7 @@ const formSchema = new SimpleSchema({
 const bridge = new SimpleSchema2Bridge(formSchema);
 
 /** Renders the Page for adding a document. */
-class CreateProfile extends React.Component {
+class AddAnime extends React.Component {
 
   /** On submit, insert the data. */
   submit(data, formRef) {
@@ -46,7 +46,7 @@ class CreateProfile extends React.Component {
     return (
         <Grid container centered>
           <Grid.Column>
-            <Header as="h2" textAlign="center">Create a Profile</Header>
+            <Header as="h2" textAlign="center" color="white">Add an anime</Header>
             <AutoForm ref={ref => { fRef = ref; }} schema={bridge} onSubmit={data => this.submit(data, fRef)} >
               <Segment>
                 <TextField name='name'/>
@@ -64,4 +64,4 @@ class CreateProfile extends React.Component {
   }
 }
 
-export default CreateProfile;
+export default AddAnime;

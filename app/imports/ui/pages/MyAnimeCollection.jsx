@@ -7,7 +7,7 @@ import { Stuffs } from '../../api/stuff/Stuff';
 import StuffItem from '../components/StuffItem';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
-class ProfilePage extends React.Component {
+class MyAnimeCollection extends React.Component {
 
   /** If the subscription(s) have been received, render the page, otherwise show a loading icon. */
   render() {
@@ -18,7 +18,7 @@ class ProfilePage extends React.Component {
   renderPage() {
     return (
         <Container>
-          <Header as="h2" textAlign="center">Profile Page</Header>
+          <Header as="h2" textAlign="center">My Anime Collection</Header>
           <Table celled>
             <Table.Header>
               <Table.Row>
@@ -40,7 +40,7 @@ class ProfilePage extends React.Component {
 }
 
 /** Require an array of Stuff documents in the props. */
-ProfilePage.propTypes = {
+MyAnimeCollection.propTypes = {
   stuffs: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
@@ -53,4 +53,4 @@ export default withTracker(() => {
     stuffs: Stuffs.collection.find({}).fetch(),
     ready: subscription.ready(),
   };
-})(ProfilePage);
+})(MyAnimeCollection);
