@@ -11,6 +11,6 @@ Kevin Wong - Front-End / Back-End development
 
 John Bigornia - Project Management Developmental Cycle / Tester / Test Case logger
 
-Calvan Liang - README.md / Wikipage documentation
+Calvan Liang - README.md / Wikipage documentation / Tester
 
 Ryota Seki - Project Management Developmental Cycle / Project Architecture / Tester / Test Case logger
