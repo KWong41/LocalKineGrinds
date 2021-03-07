@@ -16,6 +16,7 @@ Calvan Liang - README.md / Wikipage documentation / Tester / Test Case logger
 Ryota Seki - Project Management Developmental Cycle / Project Architecture / Tester / Test Case logger
 
 (02/21/2021 - 03/21/2021) UPDATE
+
 Progress: Decided on the project concept on being a dating-app that connects users based on their anime preferences. Implemented basically funtionality similar to the typical dating app.
 Link: https://github.com/KWong41/LocalKineGrinds/projects/1
 Pending: Completing the matching endpoint tab. Adding in a profiles tab for other users that have already finished "matching". Currently testing cases. 
