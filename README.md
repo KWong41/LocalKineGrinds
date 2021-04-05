@@ -41,3 +41,22 @@ Next: Work on In-Progress Testing and Documentation
 New Completions: Basic Functionality of the Application and Addition of Theme  
 Current: Front End Development, Back End Development  
 Next: Database Implementation  
+
+**(03/21/2021 - 04/18/2021) UPDATE**
+
+Kanban Board (what was done before the last update in March 2021)
+**Link**: https://github.com/KWong41/LocalKineGrinds/projects/1  
+
+Fuzzing strategy
+
+We have used a fuzzing tool in linux ubuntu virtualbox to fuzz the application file “main.js”.  This fuzzing tool called radamsa, is able to fuzz particular inputs (any input) to change it to a random output string.  For example, using the command `echo 1000 | radamsa` would output a random string that is not the string 1000.  In this particular risk assessment, we have decided to fuzz the file main.js in our project.  The following syntax includes the main.js file syntax coded in javascript:
+
+We have called on the fuzzing tool radamsa including the argument or the filepath and name to execute the tool.  All three attempts of fuzzing have changed the import javascript syntax to random types of syntax.  Although this is profoundly inaccurate, the fuzzing tool also included additional lines of code.  We will go through this process in more depth starting with the first attempt to the last attempt.  The first fuzzing string has returned as a duplicate from the first import statement of “style.css” as well as multiple “t” characters as well as an apostrophe at the end of ‘startup’ followed by a semicolon (not syntactically correct). The second fuzzing string has returned three import statements which are also not syntactically correct.  The third fuzzing string has also returned three import statements.  
+
+What is pending:
+  We have all decided to implement a "matching" algorithm into our project.  We are in the risk assessment and testing phase of our project.  Each team member is playtesting our project to see if anything breaks 
+  
+**John**
+**Kevin**
+**Calvan**
+**Ryota**
