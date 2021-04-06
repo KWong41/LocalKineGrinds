@@ -55,8 +55,13 @@ We have called on the fuzzing tool radamsa including the argument or the filepat
 
 What is pending:
   We have all decided to implement a "matching" algorithm into our project.  We are in the risk assessment and testing phase of our project.  Each team member is playtesting our project to see if anything breaks 
-  
+
+Who did what so far: 
+
 **John**
 **Kevin**
 **Calvan**
 **Ryota**
+
+Link to local repository:
+https://github.com/KWong41/LocalKineGrinds
