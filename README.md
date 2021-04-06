@@ -60,15 +60,19 @@ Who did what so far:
 
 **John**
 New Completions:  Risk Assessment test cases and vulnerabilities, documentation, and implementation
+Upcoming Task:  Implementing an anime database that we can use to utilize our "matching" algorithm
 
 **Kevin**
 New Completions:  Fuzz Testing test cases and vulnerabilities, documentation, and implementation
+Upcoming Task:  Developing an algorithm to match objects from John's database
 
 **Calvan**
 New Completions:  README.md documentation and assignment implementation/description and documentation
+Upcoming Task:  Documentation and utilization of the wiki page as well as more README.md documentation
 
 **Ryota**
 New Completions:  Mockup drawings, developmental process, documentation, and project management
+Upcoming Task:  Developing the front-end design of this matching algorithm 
 
 Link to local repository:
 https://github.com/KWong41/LocalKineGrinds
