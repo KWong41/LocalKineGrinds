@@ -59,9 +59,16 @@ What is pending:
 Who did what so far: 
 
 **John**
+New Completions:  Risk Assessment test cases and vulnerabilities, documentation, and implementation
+
 **Kevin**
+New Completions:  Fuzz Testing test cases and vulnerabilities, documentation, and implementation
+
 **Calvan**
+New Completions:  README.md documentation and assignment implementation/description and documentation
+
 **Ryota**
+New Completions:  Mockup drawings, developmental process, documentation, and project management
 
 Link to local repository:
 https://github.com/KWong41/LocalKineGrinds
