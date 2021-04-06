@@ -60,7 +60,7 @@ Who did what so far:
 
 **John**
 New Completions:  Risk Assessment test cases and vulnerabilities, documentation, and implementation
-Upcoming Task:  Implementing an anime database that we can use to utilize our "matching" algorithm \n
+Upcoming Task:  Implementing an anime database that we can use to utilize our "matching" algorithm /n
 
 **Kevin**
 New Completions:  Fuzz Testing test cases and vulnerabilities, documentation, and implementation
