@@ -1,9 +1,15 @@
 ![ci-badge](https://github.com/ics-software-engineering/meteor-application-template-react/workflows/ci-meteor-application-template-react/badge.svg)
 
-For details, please see http://ics-software-engineering.github.io/meteor-application-template-react/
+For installation details, please see http://ics-software-engineering.github.io/meteor-application-template-react/
 
 We have established an agile developmental process using a Kanban Board
 For more details please see https://github.com/KWong41/LocalKineGrinds/projects/1
+
+Project online repository:
+https://github.com/KWong41/LocalKineGrinds
+
+Project wiki page:
+https://github.com/KWong41/LocalKineGrinds/wiki
 
 Team Members:
 
@@ -77,5 +83,28 @@ Upcoming Task:  Documentation and utilization of the wiki page as well as more R
 New Completions:  Mockup drawings, developmental process, documentation, and project management
 Upcoming Task:  Developing the front-end design of this matching algorithm 
 
-Link to local repository:
-https://github.com/KWong41/LocalKineGrinds
+**(04/18/2021 - current) UPDATE**
+
+**John**
+Final implementations:  Release on the Risk Assessment report and snyk vulnerabilities.  Preventative measures and proposals
+
+**Kevin**
+Final implementations:  Matching Algorithm implementation, possible frontend and backend revisions (for UX/UI purposes), developer notes
+
+**Calvan**
+Final implementations:  README.md documentation, feedback, frontend and backend revisions
+
+**Ryota**
+Final implementations:  Project management, UX/UI implementation, feedback, and final assessment 
+
+Final developer notes:
+
+Brief closing thoughts on the outcome of your program including:
+
+Challenges:  The Risk Assessment tests were somewhat challenging simply because of how most of the testing purposes was run in Linux OS.  Almost all of the tools required in fuzz testing required Linux OS.  This created a problem because my computer did not like Linux OS.  It took many hours upon hours to understand what was going wrong.  Eventually, we have solved the problem.
+Surprises
+
+Achievements:  
+Increased functionality of the project in a variety of different ways.  These ways include security vulnerability and implementation, UI/UX purposes (increasing attractiveness of the functions within the project), and many front-end designs that cater towards anime-lovers.
+
+Project Release 1.0
