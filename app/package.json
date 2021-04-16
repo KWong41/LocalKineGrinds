@@ -18,7 +18,7 @@
     "simpl-schema": "^1.10.2",
     "sweetalert": "^2.1.2",
     "uniforms": "^3.2.0",
-    "uniforms-bridge-simple-schema-2": "^3.0.0",
+    "uniforms-bridge-simple-schema-2": "^3.1.0",
     "uniforms-semantic": "^3.0.0"
   },
   "devDependencies": {
