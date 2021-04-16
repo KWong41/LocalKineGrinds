@@ -2,7 +2,7 @@
   "name": "meteor-application-template-react",
   "private": true,
   "dependencies": {
-    "@babel/runtime": "^7.12.5",
+    "@babel/runtime": "^7.12.13",
     "classnames": "^2.2.6",
     "core-js": "^3.8.3",
     "graphql": "^14.5.8",
